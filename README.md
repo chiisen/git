@@ -3,8 +3,8 @@ git 進階實戰開發
 
 ---
 
-我要建立一個新的 branch 作為新功能的 branch 使用
-```bash=
+# 我要建立一個新的 branch 作為新功能的 branch 使用
+```bash
 // 切換到 develop 一般新功能，都是基於 develop
 git checkout develop
 
@@ -18,4 +18,9 @@ git branch -d fearure/funky_modify_add_wagers
 // 建立新 branch
 git branch feature/funky_modify_add_wagers
 git checkout feature/funky_modify_add_wagers
+```
+
+# 修改 Commit Message 的內容紀錄
+```bash
+git commit --amend -m "Welcome To Facebook"
 ```
